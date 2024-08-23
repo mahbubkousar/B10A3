@@ -284,7 +284,7 @@
 			</section>
 
 			<!-- Latest Portfolio Section  -->
-			<section class="mx-auto mt-10 px-4">
+			<section class="mx-auto mt-10 px-4 lg:px-24">
 				<div class="flex flex-col items-center">
 					<button
 						class="my-8 bg-[#acef5f84] p-1 px-4 w-auto mx-auto rounded-full"
@@ -292,66 +292,76 @@
 						<i class="fa-solid fa-arrow-right" style="color: #000000"></i>
 						<span class="text-lg font-bold ml-2">Explore our Latest Works</span>
 					</button>
-					<h1 class="text-2xl font-bold text-center">Our Latest Portfolio</h1>
+					<h1
+						class="text-2xl font-bold text-center lg:text-4xl lg:font-extrabold"
+					>
+						Our Latest Portfolio
+					</h1>
 					<p class="text-center mx-4 my-6 text-sm">
 						The barn house captivates with its blend of rustic charm and modern
 						sophistication, featuring weathered wood, sleek metal accents.
 					</p>
 				</div>
 				<div class="grid grid-cols-1 gap-3">
-					<div class="flex flex-col gap-3 m-4 p-4 bg-white rounded-xl">
-						<div>
-							<img src="./images/img1.png" alt="" class="w-full" />
-						</div>
-						<div class="flex flex-col gap-2">
-							<h1 class="text-xl font-bold">Commercial</h1>
-							<p class="text-sm text-gray-800">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-								asperiores numquam laudantium corrupti voluptates similique
-								maxime necessitatibus repellendus molestiae totam.
-							</p>
-							<br />
-							<div class="flex gap-3 items-center">
-								<h3 class="text-base font-bold">View Details</h3>
-								<i
-									class="fa-solid fa-arrow-right rotate-[-45deg] bg-[#ABEF5F] p-2 rounded-[50%] text-lg leading-none"
-									style="color: #000000"
-								></i>
+					<div class="lg:grid lg:grid-cols-7">
+						<div
+							class="flex flex-col gap-3 m-4 p-4 bg-white rounded-xl lg:m-2 lg:col-span-5 lg:flex-row"
+						>
+							<div class="lg:w-96">
+								<img src="./images/img1.png" alt="" class="w-full" />
+							</div>
+							<div class="flex flex-col gap-2">
+								<h1 class="text-xl font-bold">Commercial</h1>
+								<p class="text-sm text-gray-800">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+									asperiores numquam laudantium corrupti voluptates similique
+									maxime necessitatibus repellendus molestiae totam.
+								</p>
+								<div class="flex gap-3 items-center">
+									<h3 class="text-base font-bold">View Details</h3>
+									<i
+										class="fa-solid fa-arrow-right rotate-[-45deg] bg-[#ABEF5F] p-2 rounded-[50%] text-lg leading-none"
+										style="color: #000000"
+									></i>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="m-4 p-4 bg-white rounded-xl">
-						<img src="./images/img2.png" class="w-full" alt="" />
-					</div>
-					<div class="m-4 p-4 bg-white rounded-xl">
-						<img src="./images/img3.png" class="w-full" alt="" />
-					</div>
-					<div class="flex flex-col gap-3 m-4 p-4 bg-white rounded-xl">
-						<div>
-							<img src="./images/img4.png" alt="" class="w-full" />
+						<div class="m-4 p-4 bg-white rounded-xl lg:m-2 lg:col-span-2">
+							<img src="./images/img2.png" class="w-full" alt="" />
 						</div>
-						<div class="flex flex-col gap-2">
-							<h1 class="text-xl font-bold">Commercial</h1>
-							<p class="text-sm text-gray-800">
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
-								asperiores numquam laudantium corrupti voluptates similique
-								maxime necessitatibus repellendus molestiae totam.
-							</p>
-							<br />
-							<div class="flex gap-3 items-center">
-								<h3 class="text-base font-bold">View Details</h3>
-								<i
-									class="fa-solid fa-arrow-right rotate-[-45deg] bg-[#ABEF5F] p-2 rounded-[50%] text-lg leading-none"
-									style="color: #000000"
-								></i>
+					</div>
+					<div class="lg:grid grid-cols-4">
+						<div class="m-4 p-4 bg-white rounded-xl lg:m-2">
+							<img src="./images/img3.png" class="w-full" alt="" />
+						</div>
+						<div
+							class="flex flex-col gap-3 m-4 p-4 bg-white rounded-xl lg:m-2 lg:col-span-2 lg:flex-row lg:gap-8"
+						>
+							<div class="">
+								<img src="./images/img4.png" alt="" class="w-full" />
+							</div>
+							<div class="flex flex-col gap-2 lg:w-1/2">
+								<h1 class="text-xl font-bold">Commercial</h1>
+								<p class="text-sm text-gray-800">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+									asperiores numquam laudantium corrupti voluptates similique
+									maxime necessitatibus repellendus molestiae totam.
+								</p>
+								<div class="flex gap-3 items-center">
+									<h3 class="text-base font-bold">View Details</h3>
+									<i
+										class="fa-solid fa-arrow-right rotate-[-45deg] bg-[#ABEF5F] p-2 rounded-[50%] text-lg leading-none"
+										style="color: #000000"
+									></i>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="m-4 p-4 bg-white rounded-xl">
-						<img src="./images/img3.png" class="w-full" alt="" />
-					</div>
-					<div class="m-4 p-4 bg-white rounded-xl">
-						<img src="./images/img5.png" class="w-full" alt="" />
+						<div class="m-4 p-4 bg-white rounded-xl lg:m-2 lg:hidden">
+							<img src="./images/img3.png" class="w-full" alt="" />
+						</div>
+						<div class="m-4 p-4 bg-white rounded-xl lg:m-2">
+							<img src="./images/img5.png" class="w-full" alt="" />
+						</div>
 					</div>
 				</div>
 			</section>
